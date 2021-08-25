@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley&display=swap');
+
+body {
+  box-sizing:border-box;
+  font-family: 'Besley', serif;
+  margin: 0;
+}
+
+header {
+  height: 72px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.color-picker:hover {
+  cursor: pointer;
+  color: rgb(90, 116, 165);
+}
+
+.simple-hex:hover {
+  cursor: pointer;
+  color: rgb(90, 116, 165);
+}
+
+
+.title {
+  margin: 0 auto;
+  font-size: 56px;
+  text-align: center;
+  margin-top: 124px;
+  background-color: black;
+  color: white;
+  max-width: 750px;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.changer {
+  margin: 156px auto 0 auto;
+  width: 256px;
+  border: none;
+  background-color: #45a348; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 10px 32px;
+  text-align: center;
+  display: block;
+  font-size: 20px;
+  height: 60px;
+}
+
+.changer:hover {
+  background-color: #359438;
+  cursor: pointer;
+}
+
+
+
